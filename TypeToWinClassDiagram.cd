@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="type_to_win.Game1">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAwAAAAAIAIAAAAAAIAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="levelManager" />
+      <Field Name="saveInformation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="type_to_win.Levels.Level">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAIBAAAABAAwBAAAAAAAIIAAQAAAICQQABQAAAAAQ=</HashCode>
+      <FileName>Levels\Level.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LevelEnemiesHandler" />
+      <Property Name="Hud" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="type_to_win.Levels.Level1">
+    <Position X="9.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAwAAAAAAAAAACAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\Level1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Levels.LevelManager" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEwAAAwAAAAAAAAAAAAAEAAABAAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\LevelManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Levels" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="type_to_win.Sprites.Sprite">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAgAAIAAEIAAAAABAAAACAAAAAAAAQ=</HashCode>
+      <FileName>Sprites\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpriteSheet" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="type_to_win.Sprites.FontRender">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAYAAAAAAAwAgAAIAAAAAAAAAAAAAAAAACAACAAQ=</HashCode>
+      <FileName>Sprites\FontRender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="type_to_win.Levels.SaveInformation">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\SaveInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Program">
+    <Position X="26.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.AnimatedSprite">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAIAAAAAAAAAAACQAQAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Sprites\AnimatedSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Animations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="type_to_win.Sprites.Animation">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAIAIAAAAAAAAAAAAQCE=</HashCode>
+      <FileName>Sprites\Animation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Frames" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="type_to_win.Sprites.Frame">
+    <Position X="20.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIACAAAEAAAAA=</HashCode>
+      <FileName>Sprites\Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.SpriteSheet">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAACAACAAIAAAAAAAAAABAAAABAAAQ=</HashCode>
+      <FileName>Sprites\SpriteSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Levels.KeyToCharTranslate">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\KeyToCharTranslate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Levels.Logger&lt;T&gt;">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.MultiColorFontRender">
+    <Position X="19.5" Y="11.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="type_to_win.Sprites.MultiColorFontRender.ColorStringPairing" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\MultiColorFontRender.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQEAABAAAAAAgBAAAAAAAAAAAAAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>Sprites\MultiColorFontRender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.Enemies.EnemyWord">
+    <Position X="19.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAwAAAAAAAAAAAAAAAggAAQAAAAAQAIA=</HashCode>
+      <FileName>Sprites\Enemies\EnemyWord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.Enemies.EelEnemy">
+    <Position X="12" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAgABAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>Sprites\Enemies\EelEnemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentDirection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="type_to_win.Sprites.Enemies.Enemy">
+    <Position X="14.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAwAAEAAAECCDAAAAAAUBIBBAAAAABAQ=</HashCode>
+      <FileName>Sprites\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.Enemies.JellyfishEnemy">
+    <Position X="16.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAQAAAAAAAgABAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>Sprites\Enemies\JellyfishEnemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentDirection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="type_to_win.Sprites.Enemies.SharkEnemy">
+    <Position X="14.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>Sprites\Enemies\SharkEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.BackgroundImage">
+    <Position X="18.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Sprites\BackgroundImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Sprites.Tile" Collapsed="true">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Util.ColorWrapper">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Util\ColorWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Levels.LevelEnemiesHandler">
+    <Position X="17" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgA4AAAAAgAAAAAAEACAABQAAAAAAAEAQ=</HashCode>
+      <FileName>Levels\LevelEnemiesHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Enemies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="type_to_win.Database.DatabaseHandler">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Database\DatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Database.LevelWordsDatabaseHandler">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Database\LevelWordsDatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Database.SetupDatabase">
+    <Position X="24.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\SetupDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="type_to_win.Levels.Hud">
+    <Position X="6.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\Hud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="type_to_win.Interfaces.GameObject">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Interfaces\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="type_to_win.Levels.Direction">
+    <Position X="14.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="type_to_win.Levels.GameState">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="type_to_win.Levels.Difficulty">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAIAAgAAEAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Levels\LevelDifficulty.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
