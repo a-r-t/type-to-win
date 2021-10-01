@@ -37,7 +37,7 @@ namespace type_to_win.Database
 
             WebClient webClient = new WebClient();
             webClient.Headers.Add("X-RapidAPI-Host", "wordsapiv1.p.rapidapi.com");
-            webClient.Headers.Add("X-RapidAPI-Key", "17a05eee8fmsh60cb82784b6dfe5p1dfd45jsndd4272b511ed");
+            webClient.Headers.Add("X-RapidAPI-Key", "RAPID-API-KEY-HERE, MUST BE SUBSCRIBED TO https://rapidapi.com/dpventures/api/wordsapi/");
             webClient.QueryString.Add("lettersMin", "1");
             int page = 1;
             JObject result;
